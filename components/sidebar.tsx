@@ -73,7 +73,7 @@ const Sidebar = () => {
                                 </LinkBox>
                             </ListItem>
                         ))}
-                    </List>
+                    </List> 
                 </Box>
                 <Box marginTop='20px'>
                     <List spacing={2}>
@@ -92,7 +92,7 @@ const Sidebar = () => {
                     </List>
                 </Box>
                 <Divider bg='gray.800' />
-                <Box height="66%" overflowY='auto' paddingY="20px">
+            <Box height="66%" overflowY='auto' paddingY="20px">
                         <List spacing={2}>
                             {playlists.map(playlist => {
                                 <ListItem paddingY='20px' key={playlist}>
