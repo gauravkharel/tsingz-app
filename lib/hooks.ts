@@ -15,7 +15,6 @@ export const useMe = () => {
 
 //basically useMe hooks makes it easy this way
 // there's user or, isLoading or isError, no inbetween
-
 export const usePlaylist = () => {
     const {data, error} = useSWR('/playlist', fetcher)
     return{
@@ -24,4 +23,3 @@ export const usePlaylist = () => {
         isError: error,
     }    
 }
-
